@@ -41,6 +41,11 @@ header {
   position: relative;
 }
 
+.update {
+  border: 5px solid #ed6694;
+  padding: 35px 45px;
+}
+
 .card.reverse {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
@@ -70,7 +75,7 @@ header {
   border-radius: 50%;
   font-size: 19px;
   border: 1px #eee solid;
-  transition: 0.3s;
+  transition: opacity 0.3s;
 }
 
 .rating li label {
@@ -129,6 +134,11 @@ input:focus {
   position: absolute;
   top: -10px;
   left: -10px;
+}
+
+.update-rating {
+  top: -15px;
+  left: -15px;
 }
 
 .close,
